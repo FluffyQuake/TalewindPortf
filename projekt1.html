@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="bg-neutral-800">
+    <div>
+        <div class="h-80 w-full bg-transparent">
+            <div class="flex justify-end  pt-5 pr-5">
+                <a class="text-white w-[125px] text-center" href="index.html">Kodu</a>
+                <div class="relative">
+                    <button id="button2" class="text-white items-center w-[125px]">Projektid</button>
+                    <div id="dropdown2" class="absolute hidden block text-center bg-white rounded-lg py-4 px-2">
+                        <a class="text-black bg-white w-[110px] hover:bg-fuchsia-300 hover:text-white" href="projekt1.html">Projekt 1</a>
+                        <a class="text-black bg-white w-[110px] hover:bg-fuchsia-300 hover:text-white" href="projekt2.html">Projekt 2</a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <button id="button" class="text-white items-center w-[125px]">Lisainfo</button>
+                    <div id="dropdown" class="absolute hidden block bg-white w-full text-center rounded-lg py-4 px-6">
+                        <a href="cv.html" class="text-black w-[125px] hover:bg-fuchsia-300 hover:text-white">CV</a>
+                        <a href="mindmap.html" class="text-black w-[125px] hover:bg-fuchsia-300 hover:text-white">Mindmap</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-col selection:bg-fuchsia-300 selection:text-fuchsia-900">
+                <h1 class="text-[80px] text-white flex justify-center font-bold">Esimene projekt</h1>
+                <h1 class="text-[24px] text-white flex justify-center font-bold">Kuulsuse portfoolio</h1>
+            </div>
+        </div>
+        <div class="text-[24px] text-white flex justify-center">
+            <div class="flex flex-col selection:bg-fuchsia-300 selection:text-fuchsia-900 text-center space-y-2">
+                <p>Ma tegin oma tiimiga portfoolio Bill Gatesist.</p>
+                <p>Minu töö osa oli disaini tegemine.</p>
+                <p>Õppisin kasutama Figmat disainimiseks.</p>
+                <div class="flex flex-col space-y-2">
+                    <a href="https://github.com/AlexVermil/Tiim6.git" class="hover:bg-fuchsia-300 hover:text-fuchsia-900">Githubi link</a>
+                    <a href="https://tak20kallas.itmajakas.ee/#cont" class="hover:bg-fuchsia-300 hover:text-fuchsia-900">Visuaal saidist</a>
+                    <a href="https://www.figma.com/file/9fSRyWvNwgW4H2En6J7wOO/Untitled?node-id=0%3A1" class="hover:bg-fuchsia-300 hover:text-fuchsia-900">Figma link</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <img class="p-0 fixed top-0 h-screen w-screen object-cover -z-10 blur" src="setup.jpg" alt="pilt">
+    <script src="script.js"></script>
+</body>
+</html>
